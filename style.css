@@ -1,0 +1,154 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+body {
+    background: url(boreale.jpg) center fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+p {
+  font-weight: bold !important;
+}
+
+#text1 {
+
+  width: 56%;
+
+}
+
+#text2 {
+width: 56%;
+
+}
+
+#text3 {
+  width: 44%;
+}
+
+#btn1 {
+  
+  background: transparent;
+  color: ghostwhite;
+  font-size: 303%;
+  font-style: italic;
+  text-decoration: underline;
+  border: none;
+  font-family: serif;
+
+}
+
+#contenuto {
+  width: 65%;
+  position: relative;
+  left: 24%;
+  top: 40px;
+}
+
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+/*schermi piccoli*/
+@media only screen and (orientation: portrait) , screen and (max-width: 360px) {
+  body {
+    background: url(boreale.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 138% 630px;
+    
+  }
+
+  #contenuto {
+    width: 100%;
+    position: relative;
+    left: 0%;
+    top: 40px;
+  }
+  
+  
+#text1 {
+
+  width: 110%;
+
+}
+
+#text2 {
+  width: 100%;
+  
+  }
+#tiamo {
+
+  width: 95% !important;
+
+}
+#mivida {
+
+  width: 95% !important;
+
+}
+#text3 {
+  width: 73%;
+  position: relative;
+  top: -13px;
+}
+#btn1 {
+  position: relative;
+  right: -19%;
+  bottom: -130px;
+}
+}
+/*schermi grandi*/
+@media only screen and (orientation: portrait) and (min-width: 361px) {
+  body {
+  background: url(boreale.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 138% 725px;
+  }
+  #contenuto {
+    width: 100%;
+    position: relative;
+    left: 24%;
+    top: 40px;
+  }
+  #text1 {
+
+    width: 110%;
+  
+  }
+
+  
+  #text2 {
+  width: 100%;
+  
+  }
+  #tiamo {
+
+    width: 95% !important;
+  
+  }
+  #mivida {
+
+    width: 95% !important;
+
+  }
+  #text3 {
+    width: 73%;
+    position: relative;
+    top: -13px;
+}
+
+#btn1 {
+  position: relative;
+  right: -19%;
+  bottom: -130px;
+}
+
+}
